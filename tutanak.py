@@ -34,6 +34,9 @@ def send_request(school_id):
         print(f"Sending request to {SANDIKS_URL}")
         response = requests.get(
             url=SANDIKS_URL,
+			headers={
+				"User-Agent":"Mozilla/5.0"
+			}
         )
         print('Response HTTP Status Code: {status_code}'.format(
             status_code=response.status_code))
