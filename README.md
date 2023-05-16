@@ -3,6 +3,8 @@ oy ve ötesi sitesi üzerinden sandık verilerini toplamak için script. .exe do
 
 orijinal temiz kodu yazan "kiliczsh"a çok teşekkürler, bu bir FORK'tur. Acilen girip verilerin sıradan kullanıcılar tarafından da çekilebilmesi için dist klasöründe scrape_from_city.exe dosyası oluşturulmuştur. Bu dosyayı çalıştırınca sizden plaka kodu ister, girince o ile dair tüm seçim bilgilerini .xlsx (excel), .jpg (resim) ve .json dosyaları olarak çeker. "scrape_from_city-resimli.exe" imzalı belgeleri de çektiğinden daha yavaş çalışmaktadır, ayrıca onu kullanınca bazı kullanıcılarda oyların boş gelmeye başladığını gördük (bot engellemesi olarak düşünüyoruz, ip değiştirince bir süreliğine düzeliyor).
 
+.exe dosyasının çalışabilmesi için cities.json dosyası GEREKLIDIR, yoksa çalışmaz.
+
 # Run Distribution Without Install
 ```
 Click and run "dist/scrape_from_city-resimsiz.exe",
